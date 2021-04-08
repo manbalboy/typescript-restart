@@ -15,6 +15,15 @@ function test (): void {
 
 
 
+enum Fruit {
+    Apple,
+    Banana =5,
+    Orange,
+}
+// 0, 5 , 6 
+console.log(Fruit.Apple, Fruit.Banana, Fruit.Orange);
+
+
 console.log(123);
 
 // isEqual()
